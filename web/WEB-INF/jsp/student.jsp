@@ -8,7 +8,7 @@
 <%@taglib uri = "http://www.springframework.org/tags/form" prefix = "form"%>
 <html>
 <head>
-    <title>Spring MVC Form Handling</title>
+    <title>Spring MVC Exception Handling</title>
 </head>
 
 <body>
@@ -28,9 +28,7 @@
             <td><form:input path = "id" /></td>
         </tr>
         <tr>
-            <td colspan = "2">
-                <input type = "submit" value = "Submit"/>
-            </td>
+            <td colspan = "2"><input type = "submit" value = "Submit"/></td>
         </tr>
     </table>
 </form:form>
